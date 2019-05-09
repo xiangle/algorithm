@@ -23,7 +23,7 @@ module.exports = function (...parameter) {
          let item = parameter[key]
          let index = pointers[key]
          let itemLength = item.length
-
+         
          for (let i = index; i < itemLength; i++) {
 
             index++

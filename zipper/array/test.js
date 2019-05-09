@@ -4,11 +4,11 @@ const zipper = require('.')
 
 let a = new Map(), b = new Map(), c = new Map(), d = new Map()
 
-for (let i = 0; i < 1000000; i++) {
-   a.set(Math.floor(Math.random() * 1000000), true)
-   b.set(Math.floor(Math.random() * 1000000), true)
-   c.set(Math.floor(Math.random() * 1000000), true)
-   d.set(Math.floor(Math.random() * 1000000), true)
+for (let i = 0; i < 100000; i++) {
+   a.set(Math.floor(Math.random() * 100000), true)
+   b.set(Math.floor(Math.random() * 100000), true)
+   c.set(Math.floor(Math.random() * 100000), true)
+   d.set(Math.floor(Math.random() * 100000), true)
 }
 
 a = [...a.keys()].sort()
